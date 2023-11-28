@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#splash-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #141414;
+    display: auto;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#splash-image {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#content {
+    display: none;
+}
+
+@import url('//fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+body {
+    font-family: '', sans-serif;
+    font-weight: 900;
+}
+
+#contenedor {
+    background-color: #de9000;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    color: #000;
+}
+
+.cargando {
+    position: relative;
+    color: #FFF;
+    margin-top: 2em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase
+}
+
+.rueda {
+    border: 20px solid rgba(255, 255, 255, .3);
+    border-radius: 100%;
+    border-left-color: transparent;
+    width: 100px;
+    height: 100px;
+    animation: giro 1s linear infinite;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name":"Dia de muertos",
+    "short_name":"nov",
+    "description": "Primer pagina",
+    "background-color":"#FFF",
+    "theme_color":"#BBA9BB",
+    "orientation":"portrait",
+    "display":"standalone",
+    "start_url":"./",
+    "scope":"./",
+    "lang":"es-MX",
+
+    "icons":[
+        {
+            "src":"./img/historia.jpg",
+            "size":"1024x1024",
+            "type":"image/jpg"
+        },
+        {
+            "src":"./img/dia.jpg",
+            "size":"16x16",
+            "type":"image/jpg"
+        },
+        {
+            "src":"./img/disfraz.jpg",
+            "size":"16x16",
+            "type":"image/jpg"
+        },
+        {
+            "src":"./img/ofrenda.jpg",
+            "size":"16x16",
+            "type":"image/jpg"
+        }
+    ],
+    "id":"uno"
+}
